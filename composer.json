@@ -1,0 +1,21 @@
+{
+    "name": "edax/crssfeed",    
+    "type": "library",
+    "description": "CRssFeed is SimplePie wrapper-class for generating objects that can be used to render a RSS feed",
+    "keywords": ["rss", "feed", "simplepie"],
+    "homepage": "http://dbwebb.se/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Jönnerstig",
+            "email": "eduardo_jonnerstig@live.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "edax\\": "src/" }
+    }
+}
