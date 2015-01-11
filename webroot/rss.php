@@ -2,7 +2,7 @@
  
 include('../src/Rss/CRssFeed.php');
 
-$rss = new \edax\CRssFeed\CRssFeed(array('http://www.smashingmagazine.com/feed/'));
+$rss = new \edax\Rss\CRssFeed(array('http://www.smashingmagazine.com/feed/'));
 $items = $rss->getRssFeed();
 
 ?>
