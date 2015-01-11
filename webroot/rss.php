@@ -1,9 +1,8 @@
 <?php
  
-include('../src/CRssFeed.php');
+include('../src/Rss/CRssFeed.php');
 
-$cachePath = __DIR__ . '/cache';
-$rss = new \edax\CRssFeed\CRssFeed(array('http://www.smashingmagazine.com/feed/'), 3600, $cachePath);
+$rss = new \edax\CRssFeed\CRssFeed(array('http://www.smashingmagazine.com/feed/'));
 $items = $rss->getRssFeed();
 
 ?>
@@ -12,7 +11,7 @@ $items = $rss->getRssFeed();
  <html>
  <head>
  	<title>RSS</title>
- 	<link rel="stylesheet" type="text/css" href="css/style.css">
+ 	<link rel="stylesheet" type="text/css" href="css/rss_style.css">
  </head>
  <body>
  	<h1 class='feedheading'>RSS Feed</h1>
