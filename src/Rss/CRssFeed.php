@@ -17,7 +17,7 @@ class CRssFeed{
 	public function __construct(array $urls){
 
 		//require the SimplePie library
-		require_once(__DIR__.'/../simplepie/simplepie_1.3.1.mini.php');
+		require_once(__DIR__.'/../simplepie/autoloader.php');
 		$this->feed = new SimplePie();
 		$this->feed->enable_cache(false);
 
