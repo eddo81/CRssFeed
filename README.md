@@ -4,7 +4,7 @@
 ___
 ###Description
 
-A SimplePie wrapper-class for generating objects that can be used to render a RSS feed. This wrapper-class comes prebundled with a minified version of SimplePie. For more information on SimplePie, visit http://simplepie.org/
+A SimplePie wrapper-class for generating objects that can be used to render a RSS feed. This wrapper-class comes prebundled with a version of SimplePie. For more information on SimplePie, visit http://simplepie.org/
 
 ###Installation
 
