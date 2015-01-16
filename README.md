@@ -1,4 +1,6 @@
 #CRssFeed
+
+![Travis CI](https://travis-ci.org/eddo81/CRssFeed.svg?branch=master)
 ___
 ###Description
 
