@@ -2,7 +2,7 @@ imports:
     - php
  
 filter:
-    excluded_paths: [webroot/*, test/*]
+    excluded_paths: [test/*]
  
 tools:
     external_code_coverage: true
