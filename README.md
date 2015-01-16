@@ -1,6 +1,6 @@
 #CRssFeed
 
-![Travis CI](https://travis-ci.org/eddo81/CRssFeed.svg?branch=master)
+![Travis CI](https://travis-ci.org/eddo81/CRssFeed.svg?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/eddo81/CRssFeed/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/eddo81/CRssFeed/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/eddo81/CRssFeed/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/eddo81/CRssFeed/?branch=master)
 ___
 ###Description
 
